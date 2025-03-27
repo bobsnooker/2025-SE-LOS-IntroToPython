@@ -1,0 +1,12 @@
+# Sample student grades list
+student_grades = [9, 87, 32]
+
+total = 0
+index = 0
+
+while index < len(student_grades):
+    total += student_grades[index]
+    index += 1
+
+average = total / len(student_grades)
+print(f"The average grade is: {average:.2f}")
